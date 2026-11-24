@@ -47,6 +47,40 @@ The project includes:
 | `STM32F103C8TX_FLASH.ld` | Linker script |
 | `.project`, `.cproject` | Eclipse-based project configuration |
 
+## Getting Started
+
+### Requirements
+
+- STM32CubeIDE
+- STM32F103C8T6 development board or compatible hardware
+- ST-Link programmer/debugger (for programming and debugging)
+
+### Opening the Project
+
+1. Clone or download this repository.
+2. Launch STM32CubeIDE.
+3. Select a workspace.
+4. Go to **File → Import**.
+5. Select **General → Existing Projects into Workspace**.
+6. Select the project root directory.
+7. Select the detected project and click **Finish**.
+
+### Building the Project
+
+1. Open the imported project in STM32CubeIDE.
+2. Make sure the project is selected in Project Explorer.
+3. Click **Build** (hammer icon) or select **Project → Build Project**.
+4. Check the Console for build errors.
+
+### Programming the Microcontroller
+
+1. Connect the STM32 board to the ST-Link debugger/programmer.
+2. Configure the appropriate debug/programming connection.
+3. Click **Run** or **Debug** in STM32CubeIDE.
+4. Follow the IDE prompts to program the microcontroller.
+
+The firmware execution and measurement functionality require the corresponding hardware and measurement circuit.
+
 ## Development
 
 The project was developed as part of an academic engineering project involving embedded systems, microcontroller programming and battery parameter analysis.
